@@ -1,0 +1,159 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side {
+  height: 50vh;
+  position: relative;
+  background-color: #5200ff;
+}
+
+/* make bg color and img together - use before and then opacity */
+.left-side::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/img.jpeg);
+  background-size: cover;
+  background-position: 100%;
+  opacity: 0.22;
+}
+
+p.title {
+  font-size: 4rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', sans-serif;
+  /* margin: 6.75rem 2.625rem 5.125rem; */
+  /* margin-bottom: 2.125rem; */
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  /* use em instead of rem in line height , bcz line height should vary as per font size */
+  line-height: 1.2em;
+  /* for opacity */
+  position: relative;
+}
+
+p.description {
+  font-size: 1.5rem;
+  color: #ffffff;
+
+  font-family: 'Poppins', sans-serif;
+  /* margin: 0rem 2.625rem 7.06rem; */
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.25rem;
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+
+.right-side {
+  height: 50vh;
+}
+
+.left-side,
+.right-side {
+  padding: 6.75rem 8vw;
+  /* top and bottom - 108 / 16 = 6.75rem */
+  /* side - inc. and dec. sides acc. to width */
+}
+
+label {
+  display: block;
+  font-size: 1.125rem;
+  margin-bottom: .77rem;
+}
+
+input {
+  width: 100%;
+  background: #ededed;
+  border: 1px solid #c7c7c7;
+  font-size: 1rem;
+  padding: .75rem;
+  outline: none;
+  margin-bottom: 2.5em;
+}
+
+input[type="text"]:focus {
+  border: 3px solid black;
+}
+input[type="email"]:focus {
+  border: 3px solid black;
+}
+
+input[type=submit] {
+  width: 100%;
+  background: #5200ff;
+  padding: 1em;
+  color: white;
+  border: none;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+/* tablet responsive */
+
+@media only screen and (min-width: 770px) {
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2em;
+  }
+
+  input[type=submit] {
+    width: auto;
+    padding: 1em 2.5em;
+  }
+}
+
+/* desktop responsive */
+
+@media only screen and (min-width: 1260px) {
+  .container {
+    flex-direction: row;
+  }
+
+  /* to make both sides 50-50 */
+  .left-side,
+  .right-side {
+    /* flex initial 0 */
+    flex-basis: 0;
+    /* grow at same scale */
+    flex-grow: 1;
+    height: 100vh;
+  }
+
+  .left-side,
+  .right-side {
+    display: grid;
+    place-items: center;
+  }
+
+  .form {
+    grid-template-columns: repeat(1, auto);
+  }
+}

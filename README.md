@@ -12,6 +12,8 @@
 
 #### This challenge introduces a range of topics including creating a hero image, forms and buttons, leaving you with a slick landing page that you can adapt for your own projects. 
 
+#### Figma - https://www.figma.com/file/5Y47YXJgt2DoezlF7Y4Ytq/A-Simple-Landing-Page?node-id=0%3A1
+
 ### 3. A Data Analytics Dashboard 
 
 #### In the project, we tackle elements such as animated nav bars, burger menus, more advanced backgrounds, gradients and logos, allowing you to practice making a sleek, modern site. 
