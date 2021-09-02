@@ -1,6 +1,6 @@
 ## Figma to Code
 
-### In this repository I transformd great-looking figma mockups into usable user interfaces.
+### In this repository I transformd great-looking Figma mockups into Pixel-perfect usable user interfaces.
 
 ### 1. A Simple Card 
 
