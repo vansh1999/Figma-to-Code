@@ -92,3 +92,13 @@ p {
     margin-top: 3.5rem;
   }
 }
+
+/* Gary solution to when need to increse anything with rem or em in one line */
+/* at end paste this */
+/* default is 16px , increse to 28 px */
+/* @media only screen and (min-width: 950px) {
+  html {
+    
+    font-size: 28px;
+  }
+} */
