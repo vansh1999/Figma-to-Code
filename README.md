@@ -4,6 +4,8 @@
 
 ### 1. A Simple Card 
 
+#### Figma - https://www.figma.com/file/wzAjc1CgGZ0o2S3X9xRaBP/A-Simple-Card?node-id=0%3A1
+
 #### The first challenge introduces you to Figma and recaps em and rem units before letting you loose with creating those near pixel-perfect elements. Topics covered include CSS grid, SVGs as links, and media queries. 
 
 ### 2. A Simple Landing Page 
