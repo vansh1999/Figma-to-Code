@@ -16,7 +16,9 @@
 
 ### 3. A Data Analytics Dashboard 
 
-#### In the project, we tackle elements such as animated nav bars, burger menus, more advanced backgrounds, gradients and logos, allowing you to practice making a sleek, modern site. 
+#### In the project, we tackle elements such as animated nav bars, burger menus, more advanced backgrounds, gradients and logos, allowing you to practice making a sleek, modern site.
+
+#### Figma - https://www.figma.com/file/VnejwcImzFbFOEyGxNRAkz/Dashboard?node-id=0%3A1
 
 ### 4. A Car Sales Site 
 

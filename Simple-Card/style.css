@@ -23,6 +23,8 @@ body {
   position: relative;
 
   margin: 8.75rem 1.85rem;
+  /* margin top based on device height - use vh */
+  margin: 8vh 1.85rem;
 }
 
 img {
