@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+</head>
+<body>
+    
+    <div class="container">
+        <!-- header section -->
+        <header>
+            <div class="heading">
+                <h1>Available Cars</h1>
+                <p>There are 15 cars that match your criteria</p>
+            </div>
+            <div class="options">
+
+                <div class="icons">
+                    <input type="text" class="search">
+                    <img src="./assets/menu.svg" alt="menu" class="menu">
+                </div>
+
+                <div class="filter">
+                    <div class="chk-container">
+                        <input type="checkbox" id="new">
+                        <label for="new"> New cars </label>
+                    </div>
+                    <div class="chk-container">
+                        <input type="checkbox" id="used">
+                        <label for="used"> Used cars </label>
+                    </div>
+                    <div class="chk-container">
+                        <input type="checkbox" id="dealer">
+                        <label for="dealer"> Dealership </label>
+                    </div>
+                    <div class="chk-container">
+                        <input type="checkbox" id="owner">
+                        <label for="owner"> Owner </label>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </header>
+        <!-- main table section -->
+        <main>
+            <div class="labels">
+                <p class="label-details">Car Details</p>
+                <p class="label-details">Location</p>
+                <p class="label-details">Price</p>
+                <p class="label-details">Action</p>
+            </div>
+            <!-- cars -->
+        <div class="cars">
+            <a href="#" class="car-name">2017 Toyota Highlander V4</a>
+            <p class="car-location">1944 Scrimba Ln<br>Youngstown, OH 44481</p>
+            <div class="cols-2">
+                <p class="car-price">$17,400</p>
+                <i onclick="changeHeart(this)" class="fas fa-heart"></i>
+            </div>
+        </div>
+        <div class="cars">
+            <a href="#" class="car-name">2012 Toyota Tundra 4x4</a>
+            <p class="car-location">301 Fantasy Dr<br>Beverly Hills, CA 90210</p>
+            <div class="cols-2">
+                <p class="car-price">$23,900</p>
+                <i onclick="changeHeart(this)" class="far fa-heart"></i>
+            </div>
+        </div>
+        <div class="cars">
+            <a href="#" class="car-name">2004 Dodge Ram 4x4</a>
+            <p class="car-location">993 Fiscal St<br>Boulder, CO 93391</p>
+            <div class="cols-2">
+                <p class="car-price">$37,490</p>
+                <i onclick="changeHeart(this)" class="far fa-heart"></i>
+            </div>
+        </div>
+        <div class="cars">
+            <a href="#" class="car-name">2004 Dodge Ram 4x4</a>
+            <p class="car-location">9104 Falsety Ave<br>AnonyVille, FL 40440</p>
+            <div class="cols-2">
+                <p class="car-price">$7,998</p>
+                <i onclick="changeHeart(this)" class="far fa-heart"></i>
+            </div>
+        </div>
+        <div class="cars">
+            <a href="#" class="car-name">2021 Tesla Model 3</a>
+            <p class="car-location">993 Fiscal St<br>Boulder, CO 93391</p>
+            <div class="cols-2">
+                <p class="car-price">$37,490</p>
+                <i onclick="changeHeart(this)" class="far fa-heart"></i>
+            </div>
+        </div>
+        </main>
+        
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

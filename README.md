@@ -24,6 +24,8 @@
 
 #### This massive project allows you to practice creating a sales site, including a search bar, like functionality, icons, and an animated dropdown.
 
+#### Figma - https://www.figma.com/file/qhHkkzlsyzNZnaOpZuRSHJ/Cars-Layout?node-id=0%3A1
+
 ### 5. Drone Event Landing Page 
 
 #### This mind-blowing project lets you show off everything you’ve learned so far, plus pick up some awesome skills you might not already know. As well as creating pro-looking animated elements, styling quotes, and advanced CSS grid practice, we’ll also create another stylish form and animated nav bar, to cement your knowledge from earlier in the course. 
