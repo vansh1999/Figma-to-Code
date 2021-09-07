@@ -381,6 +381,39 @@ button {
     background-size: 100% 100%;
     /* background-blend-mode: screen; */
   }
+
+  .quote {
+    width: 80%;
+    display: grid;
+    grid-auto-flow: row;
+    place-content: center;
+  }
+
+  .gallery-content h2,
+  .gallery-content p {
+    width: 50%;
+    /* margin-left: auto; */
+  }
+
+  .gallery-content h2 {
+    font-size: 4rem;
+  }
+
+  .gallery {
+    display: flex;
+    gap: 4em;
+  }
+
+  .gallery-container {
+    z-index: 1;
+    margin-top: -5rem;
+  }
+
+  .cols-2 {
+    display: grid;
+    gap: 4em;
+    grid-template-columns: 40% auto;
+  }
 }
 
 @media (min-width: 1200px) {

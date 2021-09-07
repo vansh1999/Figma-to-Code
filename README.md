@@ -2,11 +2,15 @@
 
 ### In this repository I transformd great-looking Figma mockups into Pixel-perfect usable user interfaces.
 
+
 ### 1. A Simple Card 
+
+#### The first challenge introduces you to Figma and recaps em and rem units before letting you loose with creating those near pixel-perfect elements. Topics covered include CSS grid, SVGs as links, and media queries. 
 
 #### Figma - https://www.figma.com/file/wzAjc1CgGZ0o2S3X9xRaBP/A-Simple-Card?node-id=0%3A1
 
-#### The first challenge introduces you to Figma and recaps em and rem units before letting you loose with creating those near pixel-perfect elements. Topics covered include CSS grid, SVGs as links, and media queries. 
+#### See Live - https://practical-ptolemy-8c72bb.netlify.app/
+
 
 ### 2. A Simple Landing Page 
 
@@ -14,11 +18,17 @@
 
 #### Figma - https://www.figma.com/file/5Y47YXJgt2DoezlF7Y4Ytq/A-Simple-Landing-Page?node-id=0%3A1
 
+#### See Live - https://focused-newton-66779a.netlify.app/
+
+
 ### 3. A Data Analytics Dashboard 
 
 #### In the project, we tackle elements such as animated nav bars, burger menus, more advanced backgrounds, gradients and logos, allowing you to practice making a sleek, modern site.
 
 #### Figma - https://www.figma.com/file/VnejwcImzFbFOEyGxNRAkz/Dashboard?node-id=0%3A1
+
+#### See Live - https://dazzling-easley-e77217.netlify.app/
+
 
 ### 4. A Car Sales Site 
 
@@ -26,9 +36,13 @@
 
 #### Figma - https://www.figma.com/file/qhHkkzlsyzNZnaOpZuRSHJ/Cars-Layout?node-id=0%3A1
 
+#### See Live - https://frosty-ramanujan-49c0db.netlify.app/
+
+
 ### 5. Drone Event Landing Page 
 
 #### This mind-blowing project lets you show off everything you’ve learned so far, plus pick up some awesome skills you might not already know. As well as creating pro-looking animated elements, styling quotes, and advanced CSS grid practice, we’ll also create another stylish form and animated nav bar, to cement your knowledge from earlier in the course. 
 
 #### Figma - https://www.figma.com/file/Z3lglo2FLnwFAbHVnvw1cm/Drones?node-id=1%3A2
 
+#### See Live - https://kind-neumann-77ab94.netlify.app/
