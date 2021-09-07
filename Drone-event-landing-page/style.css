@@ -1,0 +1,392 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  /* background-color: black; */
+}
+
+img {
+  width: 100%;
+}
+
+/* header */
+
+.menu.btn {
+  cursor: pointer;
+}
+
+.exit-btn {
+  color: white;
+  text-align: right;
+  cursor: pointer;
+}
+
+.fa-times-circle {
+  margin: 2.6rem;
+  transform: scale(1.6);
+}
+
+.top-bg-container {
+  height: 100vh;
+  position: absolute;
+  width: 90%;
+  top: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 80% auto;
+  z-index: -1;
+}
+
+.green-bg {
+  background: #b2dd9e url(./assets/green-bg.png);
+  background-size: cover;
+  height: 100vh;
+  /* background-blend-mode: screen; */
+}
+
+.blue-bg {
+  background: #7988be;
+}
+
+.container {
+  margin: 0 0rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  z-index: 2;
+}
+
+nav ul {
+  /* display: none; */
+  /* diplay none is not a good idea when having some animations */
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #363b4e;
+  z-index: 2;
+  padding: 2.5rem 2.8rem;
+  height: 99.9vh;
+  width: 66.5%;
+  transform: translateX(100%);
+  transition: transform .3s;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  font-size: 1.5rem;
+  right: 0;
+  top: 0;
+  padding: .4em 1.5em;
+  text-align: right;
+}
+
+.logo {
+  display: inline-block;
+  background: black;
+  padding: .4rem .8rem;
+}
+
+.menu.btn {
+  transform: scale(1.8);
+  width: 22px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.fa-bars {
+  transform: scale(1.4);
+  margin: 1rem;
+  cursor: pointer;
+}
+
+/* content - hero section */
+
+.content {
+  text-align: center;
+  align-content: center;
+  margin: 8rem 3rem 0;
+  height: 75vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 92%;
+}
+
+.type p {
+  font-family: 'Montserrat';
+  font-size: 1.125rem;
+  line-height: 141.6%;
+}
+
+.drone-container {
+  position: absolute;
+  width: 50%;
+  margin: 5rem auto;
+  z-index: 1;
+}
+
+.drone,
+.blur {
+  position: absolute;
+  left: 3rem;
+}
+
+.blur {
+  opacity: .9;
+  top: 1rem;
+  animation: pulse 2s alternate-reverse infinite;
+}
+
+.drone {
+  animation: hover 2s alternate-reverse infinite;
+}
+
+@keyframes hover {
+  from {
+    transform: translateY(-30px) translateX(10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: translateY(-30px) translateX(10px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+/* quote section */
+
+.quote {
+  width: 90%;
+  background-color: #303853;
+  color: white;
+  position: relative;
+  height: 75vh;
+  margin: 0rem 0rem;
+  padding: 4em 2em;
+  margin-left: auto;
+}
+
+.quote:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('./assets/stadium.png');
+  width: 100%;
+  height: 100%;
+  opacity: 17%;
+}
+
+blockquote {
+  margin: 0 0 2em 0;
+  font-size: 1.5rem;
+}
+
+cite {
+  position: relative;
+  padding-left: 1.5em;
+}
+
+cite:before {
+  content: '';
+  position: absolute;
+  width: 1em;
+  border-bottom: 1px solid white;
+  left: 0;
+  top: 50%;
+}
+
+/* gallery section */
+
+.gallery {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-bottom: 2rem;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-areas: ". a b" "c d ." ". e .";
+}
+
+.gallery-container img:nth-of-type(1) {
+  grid-area: a;
+}
+.gallery-container img:nth-of-type(2) {
+  grid-area: b;
+}
+.gallery-container img:nth-of-type(3) {
+  grid-area: c;
+}
+.gallery-container img:nth-of-type(4) {
+  grid-area: d;
+}
+.gallery-container img:nth-of-type(5) {
+  grid-area: e;
+}
+
+.gallery-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  font-weight: normal;
+  margin: 2rem 0;
+}
+
+.gallery-content p {
+  font-family: 'Montserrat';
+  margin: 2rem 0;
+}
+
+/* contact section */
+
+.contact {
+  background: #b2dd9e;
+}
+
+.contact h3 {
+  padding: 1em 1em 1em 10%;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, .1);
+  display: inline-block;
+  margin: 0;
+  font-weight: normal;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.cols-2 {
+  width: 90%;
+  margin: 2em 2em 0 10%;
+  padding-right: 2em;
+  padding-bottom: 2em;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: .5em;
+}
+
+input {
+  width: 100%;
+  border: none;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+button {
+  background: black;
+  border: none;
+  padding: .8em;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue';
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.other-info {
+  margin-top: 3em;
+  width: 50%;
+}
+
+.other-info ul li {
+  padding: .5em;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  display: block;
+  border-radius: .2em;
+  font-family: 'Montserrat';
+  font-size: .9rem;
+}
+
+.other-info a {
+  color: black;
+}
+
+/* Responsive  */
+
+@media (min-width: 650px) {
+  html {
+    /* 16 px by default */
+    font-size: 20px;
+  }
+
+  .top-bg-container {
+    width: 80%;
+    grid-template-columns: 60% auto;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin: auto auto; */
+  }
+
+  h1 {
+    font-size: 5rem;
+    width: 35%;
+    margin-left: 3rem;
+  }
+
+  .type p {
+    width: 40%;
+    margin-left: 3rem;
+  }
+
+  .drone-container {
+    width: 20%;
+  }
+
+  .green-bg {
+    background: #b2dd9e url(./assets/green-bg.png);
+
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-blend-mode: screen; */
+  }
+}
+
+@media (min-width: 1200px) {
+  .drone-container {
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 30rem;
+  }
+}

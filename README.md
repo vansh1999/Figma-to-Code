@@ -30,5 +30,5 @@
 
 #### This mind-blowing project lets you show off everything you’ve learned so far, plus pick up some awesome skills you might not already know. As well as creating pro-looking animated elements, styling quotes, and advanced CSS grid practice, we’ll also create another stylish form and animated nav bar, to cement your knowledge from earlier in the course. 
 
-
+#### Figma - https://www.figma.com/file/Z3lglo2FLnwFAbHVnvw1cm/Drones?node-id=1%3A2
 
